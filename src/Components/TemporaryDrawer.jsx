@@ -49,8 +49,8 @@ export default function TemporaryDrawer() {
   );
 
   return (
-    <div>
-      <Button onClick={toggleDrawer(true)}>Open drawer</Button>
+    <div className='absolute left-3 top-28 z-10'>
+      <Button onClick={toggleDrawer(true)}> <img src="src/assets/menu.svg" alt="" /></Button>
       <Drawer open={open} onClose={toggleDrawer(false)}>
         {DrawerList}
       </Drawer>
