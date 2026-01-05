@@ -19,6 +19,22 @@ export default function Menu1() {
           sagittis semper.
         </p>
       </div>
+      <div className="flex justify-center gap-6">
+        <div className="flex flex-col gap-6">
+          <img src="src/assets/Group 20.png" alt="" />
+          <div className="flex items-center gap-7.5">
+            <p className="font-bold text-2xl text-[#333333]">Основное меню</p>
+            <img src="src/assets/img.svg" alt="" />
+          </div>
+        </div>
+        <div className="flex flex-col gap-6">
+          <img src="src/assets/Group 21.png" alt="" />
+          <div className="flex items-center gap-7.5">
+            <p className="font-bold text-2xl text-[#333333]">Барная карта</p>
+            <img src="src/assets/img.svg" alt="" />
+          </div>
+        </div>
+      </div>
     </section>
   );
 }

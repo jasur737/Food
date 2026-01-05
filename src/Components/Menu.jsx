@@ -16,7 +16,7 @@ export default function Menu() {
         <img src="src/assets/W.svg" alt="" />
         <img src="src/assets/Telegram.svg" alt="" />
       </div>
-     
+     `
     </section>
   );
 }

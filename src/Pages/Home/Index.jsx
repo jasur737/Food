@@ -13,8 +13,8 @@ export default function Home() {
     <Navbar/>
     <Header/>
     <Restourant/>
-    <Delivery/>
     <Menu1/>
+    <Delivery/>
     </>
   )
 }
