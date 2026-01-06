@@ -1,3 +1,4 @@
+import Contact from "../../Components/Contact";
 import TemporaryDrawer from "../../Components/TemporaryDrawer";
 import Delivery from "./Delivery";
 import Header from "./Header";
@@ -15,6 +16,7 @@ export default function Home() {
     <Restourant/>
     <Menu1/>
     <Delivery/>
+    <Contact/>
     </>
   )
 }
