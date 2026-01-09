@@ -1,17 +1,17 @@
-import { useState } from "react";
-import "./App.css";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+
 import Home from "./Pages/Home/Index";
-import Menu from "./Components/Menu";
+import Menu2 from "./Pages/Menu/Index";
+
 
 function App() {
-  const [count, setCount] = useState(0);
-
   return (
-    <>
-      <Home />
-      <Menu/>
-      
-    </>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Home/>} />
+        <Route path="/Menu2" element={<Menu2/>} />
+      </Routes>
+    </BrowserRouter>
   );
 }
 
