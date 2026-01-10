@@ -2,7 +2,7 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 export default function MenuHeader() {
   return (
-   <section className='container m-auto'>
+   <section className='container m-auto mb-[150px]'>
     <div className='flex justify-end gap-10 pr-8 pt-15'>
         <Link to="/" className='text-[#333333]'>Завтраки </Link>
         <Link to="/" className='text-[#333333]'>Raw</Link>
