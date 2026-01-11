@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 export default function MenuHeader() {
   return (
    <section className='container m-auto mb-[150px]'>
-    <div className='flex justify-end gap-10 pr-8 pt-15'>
+    <div className='flex justify-end gap-10 pr-13 pt-15'>
         <Link to="/" className='text-[#333333]'>Завтраки </Link>
         <Link to="/" className='text-[#333333]'>Raw</Link>
         <Link to="/" className='text-[#333333]'>Холодные закуски</Link>
@@ -19,7 +19,8 @@ export default function MenuHeader() {
         <Link to="/" className='text-[#333333]'>Гарниры</Link>
     </div>
     <div className='ml-[200px] mt-15 flex flex-wrap gap-6'>
-        <div className='border border-[#33333333] w-[306px] h-[404px]'>
+       <Link to="Info" className='hover'>
+       <div className='border border-[#33333333] w-[306px] h-[404px]'>
             <img src="src/assets/food1.png" alt="" />
             <p className='text-xl font-bold text-[#333333] pt-7.5 text-center '>Яичница-глазунья из трех <br /> яиц</p>
             <div className='flex gap-14 justify-center pt-6'>
@@ -27,7 +28,9 @@ export default function MenuHeader() {
                 <button className='bg-[#B59571] px-5 py-2.5 font-bold text-white'>В корзину</button>
             </div>
         </div>
-        <div className='border border-[#33333333] w-[306px] h-[404px]'>
+       </Link>
+       <Link to="" className='hover'>
+       <div className='border border-[#33333333] w-[306px] h-[404px]'>
             <img src="src/assets/food2.png" alt="" />
             <p className='text-xl font-bold text-[#333333] pt-7.5 text-center '>Омлет из трёх яиц</p>
             <div className='flex gap-14 justify-center pt-13'>
@@ -35,7 +38,9 @@ export default function MenuHeader() {
                 <button className='bg-[#B59571] px-5 py-2.5 font-bold text-white'>В корзину</button>
             </div>
         </div>
-        <div className='border border-[#33333333] w-[306px] h-[404px]'>
+       </Link>
+       <Link to="" className='hover'>
+       <div className='border border-[#33333333] w-[306px] h-[404px]'>
             <img src="src/assets/food3.png" alt="" />
             <p className='text-xl font-bold text-[#333333] pt-7.5 text-center '>Домашние сырники</p>
             <div className='flex gap-14 justify-center pt-13'>
@@ -43,7 +48,9 @@ export default function MenuHeader() {
                 <button className='bg-[#B59571] px-5 py-2.5 font-bold text-white'>В корзину</button>
             </div>
         </div>
-        <div className='border border-[#33333333] w-[306px] h-[404px]'>
+       </Link>
+       <Link to="" className='hover'>
+       <div className='border border-[#33333333] w-[306px] h-[404px]'>
             <img src="src/assets/food4.png" alt="" />
             <p className='text-xl font-bold text-[#333333] pt-7.5 text-center '>Блины</p>
             <div className='flex gap-5 justify-center pt-13'>
@@ -51,7 +58,9 @@ export default function MenuHeader() {
                 <button className='bg-[#B59571] px-5 py-2.5 font-bold text-white'>В корзину</button>
             </div>
         </div>
-        <div className='border border-[#33333333] w-[306px] h-[404px]'>
+       </Link>
+       <Link to="" className='hover'>
+       <div className='border border-[#33333333] w-[306px] h-[404px]'>
             <img src="src/assets/food5.png" alt="" />
             <p className='text-xl font-bold text-[#333333] pt-7.5 text-center px-7.5'>Каша c ягодами и кедровыми орехами</p>
             <div className='flex gap-14 justify-center pt-6'>
@@ -59,7 +68,9 @@ export default function MenuHeader() {
                 <button className='bg-[#B59571] px-5 py-2.5 font-bold text-white'>В корзину</button>
             </div>
         </div>
-        <div className='border border-[#33333333] w-[306px] h-[404px]'>
+       </Link>
+       <Link to="" className='hover'>
+       <div className='border border-[#33333333] w-[306px] h-[404px]'>
             <img src="src/assets/food6.png" alt="" />
             <p className='text-xl font-bold text-[#333333] pt-7.5 text-center '>Скрэмбл</p>
             <div className='flex gap-14 justify-center pt-13'>
@@ -67,6 +78,8 @@ export default function MenuHeader() {
                 <button className='bg-[#B59571] px-5 py-2.5 font-bold text-white'>В корзину</button>
             </div>
         </div>
+       </Link>
+        <Link to="" className='hover'>
         <div className='border border-[#33333333] w-[306px] h-[404px]'>
             <img src="src/assets/food7.png" alt="" />
             <p className='text-xl font-bold text-[#333333] pt-7.5 text-center '>Яйцо Бенедикт с лососем</p>
@@ -75,7 +88,9 @@ export default function MenuHeader() {
                 <button className='bg-[#B59571] px-5 py-2.5 font-bold text-white'>В корзину</button>
             </div>
         </div>
-        <div className='border border-[#33333333] w-[306px] h-[404px]'>
+        </Link>
+       <Link to="" className='hover'>
+       <div className='border border-[#33333333] w-[306px] h-[404px]'>
             <img src="src/assets/food8.png" alt="" />
             <p className='text-xl font-bold text-[#333333] pt-7.5 text-center '>Яйцо Бенедикт с беконом</p>
             <div className='flex gap-14 justify-center pt-13'>
@@ -83,6 +98,8 @@ export default function MenuHeader() {
                 <button className='bg-[#B59571] px-5 py-2.5 font-bold text-white'>В корзину</button>
             </div>
         </div>
+       </Link>
+        <Link to="" className='hover'>
         <div className='border border-[#33333333] w-[306px] h-[404px]'>
             <img src="src/assets/food9.png" alt="" />
             <p className='text-xl font-bold text-[#333333] pt-7.5 text-center '>Гречневая каша с авокадо, яйцом пашот и пармезаном</p>
@@ -91,7 +108,9 @@ export default function MenuHeader() {
                 <button className='bg-[#B59571] px-5 py-2.5 font-bold text-white'>В корзину</button>
             </div>
         </div>
-        <div className='border border-[#33333333] w-[306px] h-[404px]'>
+        </Link>
+       <Link to="" className='hover'>
+       <div className='border border-[#33333333] w-[306px] h-[404px]'>
             <img src="src/assets/food10.png" alt="" />
             <p className='text-xl font-bold text-[#333333] pt-7.5 text-center '>Кобб – салат с лососем</p>
             <div className='flex gap-14 justify-center pt-13'>
@@ -99,6 +118,8 @@ export default function MenuHeader() {
                 <button className='bg-[#B59571] px-5 py-2.5 font-bold text-white'>В корзину</button>
             </div>
         </div>
+       </Link>
+        <Link to="" className='hover'>
         <div className='border border-[#33333333] w-[306px] h-[404px]'>
             <img src="src/assets/food10.png" alt="" />
             <p className='text-xl font-bold text-[#333333] pt-7.5 text-center '>Кобб – салат с креветками</p>
@@ -107,6 +128,7 @@ export default function MenuHeader() {
                 <button className='bg-[#B59571] px-5 py-2.5 font-bold text-white'>В корзину</button>
             </div>
         </div>
+        </Link>
     </div>
    </section>
   )
