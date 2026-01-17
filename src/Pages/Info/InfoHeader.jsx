@@ -4,7 +4,7 @@ export default function InfoHeader() {
   return (
     <section className='container m-auto'>
          <div className='flex justify-end gap-10 pr-13 pt-15'>
-        <Link to="/" className='text-[#333333]'>Завтраки </Link>
+        <Link to="/" className='text-[#333333] after'>Завтраки </Link>
         <Link to="/" className='text-[#333333]'>Raw</Link>
         <Link to="/" className='text-[#333333]'>Холодные закуски</Link>
         <Link to="/" className='text-[#333333]'>Брускетты</Link>
@@ -17,6 +17,9 @@ export default function InfoHeader() {
         <Link to="/" className='text-[#333333]'>Grill </Link>
         <Link to="/" className='text-[#333333]'>Мангал </Link>
         <Link to="/" className='text-[#333333]'>Гарниры</Link>
+    </div>
+    <div>
+
     </div>
     </section>
   )

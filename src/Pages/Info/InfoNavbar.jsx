@@ -7,10 +7,10 @@ export default function InfoNavbar() {
         Личный кабинет
       </Link>
       <Link to="">
-        <img src="src/assets.sign.svg" alt="" />
+        <img src="/src/assets/sign.svg" alt="" />
       </Link>
       <Link to="">
-        <img src="src/assets/basket.svg" alt="" />
+        <img src="/src/assets/basket.svg" alt="" />
       </Link>
     </nav>
   );
