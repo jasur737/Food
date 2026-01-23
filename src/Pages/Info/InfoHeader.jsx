@@ -19,7 +19,7 @@ export default function InfoHeader() {
   return (
     <section className="container m-auto">
       <div className="flex justify-end gap-10 pr-13 pt-15">
-        <Link to="/" className="text-[#333333] after">
+        <Link to="Info" className="text-[#333333] after">
           Завтраки{" "}
         </Link>
         <Link to="/" className="text-[#333333] after">
@@ -59,7 +59,7 @@ export default function InfoHeader() {
           Гарниры
         </Link>
       </div>
-      <div className="mt-[60px] flex gap-[134px]">
+      <div className="mt-[60px] flex gap-[134px] mb-[150px]">
         <div className="ml-[412px]">
           <img
             className="w-[416px] h-[317px]"
@@ -85,12 +85,12 @@ export default function InfoHeader() {
           </div>
         </div>
         <div className="flex flex-col gap-8">
-          <p>Яичница-глазунья из трех яиц</p>
+          <p className="font-bold text-[32px] text-[#333333]">Яичница-глазунья из <br /> трех яиц</p>
           <div className="bg-[#333333] w-[306px] border border-[#333333]"></div>
-          <p>
-            <span>250 ₽</span> / 400 грамм
+          <p className="font-bold text-[#6a6a6a]">
+            <span className="font-bold text-[32px] text-[#333333]">250 ₽</span> / 400 грамм
           </p>
-          <div>
+          <div className="flex gap-5">
             {/* //////// */}
             <div className="border border-[#a6a6a6] w-[84px] h-[58px] flex items-center justify-center gap-3">
               <p>{counter}</p>
@@ -105,7 +105,7 @@ export default function InfoHeader() {
             </div>
             {/* //////// */}
 
-            <button>В корзину</button>
+            <button className="bg-[#B59571] py-4 px-7.5 font-bold text-xl text-white">В корзину</button>
           </div>
           <div className="bg-[#333333] w-[306px] border border-[#333333]"></div>
           <p className="font-bold text-[#333333] text-[32px]">
@@ -127,18 +127,18 @@ export default function InfoHeader() {
                 />
               </label>
               <label className="flex gap-7.5">
-                <p className="font-bold text-[#a6a6a6] w-[253px]">
+                <p className="font-bold text-[#a6a6a6] w-[253px] pt-5">
                   Томаты / паприка <br />{" "}
                   <span className="font-bold text-xl text-[#333333]">80 ₽</span>
                 </p>
 
                 <input
-                  className="w-6 h-6 border border-[#a6a6a6]"
+                  className="w-6 h-6 border border-[#a6a6a6] mt-10"
                   type="checkbox"
                 />
               </label>
               <label className="flex gap-7.5">
-                <p className="font-bold text-[#a6a6a6] w-[253px]">
+                <p className="font-bold text-[#a6a6a6] w-[253px] pt-5">
                   Бекон <br />{" "}
                   <span className="font-bold text-xl text-[#333333]">
                     120 ₽
@@ -146,18 +146,18 @@ export default function InfoHeader() {
                 </p>
 
                 <input
-                  className="w-6 h-6 border border-[#a6a6a6]"
+                  className="w-6 h-6 border border-[#a6a6a6] mt-14"
                   type="checkbox"
                 />
               </label>
               <label className="flex gap-7.5">
-                <p className="font-bold text-[#a6a6a6] w-[253px]">
+                <p className="font-bold text-[#a6a6a6] w-[253px] pt-5">
                   Сыр чеддер 30 г <br />{" "}
                   <span className="font-bold text-xl text-[#333333]">80 ₽</span>
                 </p>
 
                 <input
-                  className="w-6 h-6 border border-[#a6a6a6]"
+                  className="w-6 h-6 border border-[#a6a6a6] mt-14"
                   type="checkbox"
                 />
               </label>

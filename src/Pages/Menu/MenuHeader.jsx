@@ -4,7 +4,7 @@ export default function MenuHeader() {
   return (
    <section className='container m-auto mb-[150px]'>
     <div className='flex justify-end gap-10 pr-13 pt-15'>
-        <Link to="/" className='text-[#333333] after'>Завтраки </Link>
+        <Link to="Info" className='text-[#333333] after'>Завтраки </Link>
         <Link to="/" className='text-[#333333] after'>Raw</Link>
         <Link to="/" className='text-[#333333] after'>Холодные закуски</Link>
         <Link to="/" className='text-[#333333] after'>Брускетты</Link>

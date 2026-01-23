@@ -5,7 +5,7 @@ export default function Menu1() {
     <section className="container m-auto pt-40 flex flex-col gap-23">
       <div className="flex items-center gap-3">
         <p className="font-bold text-xl text-[#333333]">меню</p>
-        <img src="src/assets/img.svg" alt="" />
+        <img src="src/assets/img.svg" alt="" className="mt-1" />
       </div>
       <div className="flex justify-center gap-[134px] items-start">
         <h2 className="font-bold text-[64px] text-[#333333]">Меню</h2>

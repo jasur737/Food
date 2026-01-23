@@ -3,7 +3,8 @@ import TemporaryDrawer from '../../Components/TemporaryDrawer'
 import Menu from '../../Components/Menu'
 import InfoNavbar from './InfoNavbar'
 import InfoHeader from './InfoHeader'
-
+import Contact from '../../Components/Contact'
+import MenuFooter from '../Menu/MenuFooter'
 export default function Info() {
   return (
     <>
@@ -11,6 +12,8 @@ export default function Info() {
     <Menu/>
     <InfoNavbar/>
     <InfoHeader/>
+    <Contact/>
+    <MenuFooter/>
     </>
   )
 }

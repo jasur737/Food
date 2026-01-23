@@ -5,7 +5,7 @@ export default function Delivery() {
     <section className="container m-auto mt-[150px] mb-[150px]">
       <div className="flex items-center gap-7.5">
         <p className="font-bold text-2xl text-[#333333]">доставка</p>
-        <img src="src/assets/img.svg" alt="" />
+        <img src="src/assets/img.svg" alt=""  className="mt-1"/>
       </div>
       <div className="flex justify-center gap-6">
         <h2 className="font-bold text-[64px] text-[#333333] w-[306px]">Служба доставки</h2>
